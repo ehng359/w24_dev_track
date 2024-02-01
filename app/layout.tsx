@@ -16,7 +16,27 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        {
+          /* 
+            Add content between the body tag to share UI between components.
+            
+            Assignment 1: Create an interactive NavBar component that allows navigation 
+            between pages.
+            [ ] Create a new .tsx component within ./app/components called NavBar
+              * Add segmented partitions that allows for navigation between pages
+                Hint: Next.js useRouter()
+              * Connect the routes together such that any page is accessible anywhere.
+              * Style the component with TailwindCSS. @https://v2.tailwindcss.com/docs
+            [ ] Add a About page.
+            [ ] Add a Resume page.
+          */
+        }
+        <div>
+          Replace Me!
+        </div>
+        {children}
+      </body>
     </html>
   );
 }

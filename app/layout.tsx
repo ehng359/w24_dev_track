@@ -29,7 +29,10 @@ export default function RootLayout({
               * Connect the routes together such that any page is accessible anywhere.
               * Style the component with TailwindCSS. @https://v2.tailwindcss.com/docs
             [ ] Add a About page.
+              * Fill the content in with a picture of yourself, some words of wisdom and
+                some projects that you're proud of!
             [ ] Add a Resume page.
+              * Fill the content with, well, your resume!
           */
         }
         <div>

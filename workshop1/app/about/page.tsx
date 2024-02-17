@@ -1,7 +1,7 @@
 export default function About() {
     return (
         <div>
-            Hello world!
+            👋 Hey, welcome to the 2023-2024 Dev About Me.
         </div>
     )
 }

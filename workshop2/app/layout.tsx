@@ -20,8 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="px-12 h-screen w-auto bg-blue-200 overflow-y-scroll">
-          <NavBar />
+        <div className="w-auto overflow-y-scroll bg-4848 bg-gradient-to-tr from-black">
+          <div className="px-12 py-2 w-screen">
+            <NavBar />
+          </div>
           {children}
         </div>
       </body>
